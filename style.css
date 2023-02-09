@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+/* styling for hero banner*/
+.hero{
+  margin: 0;
+  padding: 0;
+  background-image:url(../Assets/safarisunset.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  }
+
+  nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    color: aliceblue;
+  }
+
+/*styling for logo*/
+  .logo{
+    color:whitesmoke;
+    font: size: 70px;
+    letter:spacing 1px;
+     cursor:pointer;
+   }
+
+   nav ul li { 
+    display:inline-block;
+    color:azure;
+    padding: 10px 20px;
+    font-weight: bold}
+
+  nav ul li :hover{
+    color:red;
+    background-color: black;}
+
+  
+  /*styling for content*/
+  .content{
+  position:absolute;
+  top:40%;
+  left:50%;
+   }
+
+.content h2{
+   color: whitesmoke;
+   letter-spacing: 1px;
+   font-size: 35px;
+}
+  
+  .about { 
+    background-color:black;
+    padding: 50px;px 0px;
+    width: 100%;
+    }
+/*styling for image position*/
+  .about img{
+    position:absolute;
+    top:20%;
+    left:30%;
+     width:15%;
+     height:auto;
+    
+  }
+  /*styling for introduction */
+  .intro{ 
+    background:beige;
+    position:absolute;
+    width:50%;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+    border:10px solid black;
+    align-items: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    top:70%;
+    left:30%;
+    float:left;}
+   
+    
+
+  /* styling for project section*/
+
+.portfolio{ background-color:chocolate;
+  position:relative;
+  width:50%;
+  display:flex;
+  justify-content: center;
+  padding:20px;
+  margin:20px;
+  border:50px solid black;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.portfolio :hover{background-color:beige;}
+
+
+   /*styling for work content*/
+.work{ background-color:chocolate;
+  position:relative;
+  width:50%;
+  display:flex;
+  justify-content: center;
+  padding:20px;
+  align-items: center;
+  border:53px solid black;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  float:left;  
+  }
+   
+.work :hover{
+      background-color:beige;}
+
+   /*styling for education content*/   
+.education{ font-family:'Times New Roman', Times, serif;
+  height:83px;
+justify-content:center;}
+ 
+.card{background-color: lightgrey;
+     color:brown;
+    position:relative;
+    width:50%;
+    display:flex;
+    justify-content: center;
+    padding:20px;
+    border:10px solid black;
+    margin-top; 20px;
+    flex-wrap: wrap;
+    float:right;
+}
+
+/*body changes color at different screen sizes*/
+ @media screen and (max-width: 992px) and (min-width:568px){body {color:red;}
+  
+ }
+   
+  
+
+
+  
