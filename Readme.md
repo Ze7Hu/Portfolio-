@@ -17,5 +17,5 @@ Advanced CSS: portfolio
 -HTML
 -CSS
 
-# Screenshots
+
 
